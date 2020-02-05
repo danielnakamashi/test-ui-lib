@@ -5,6 +5,6 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "webpack --config ./webpack.config.js"
+    "build": "rollup -c ./rollup.config.js"
   }
 }
