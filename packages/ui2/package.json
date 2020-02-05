@@ -1,0 +1,10 @@
+{
+  "name": "@test/ui2",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js"
+  }
+}
