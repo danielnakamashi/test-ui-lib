@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { render } from 'react-dom';
-import { UI1 } from '@test/ui1';
-import { UI2 } from '@test/ui2';
+import { UI1, UI2 } from '@test/ui';
 
 const App: React.FC = () => {
   return (

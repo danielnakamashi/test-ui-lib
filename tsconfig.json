@@ -1,12 +1,16 @@
 {
   "compilerOptions": {
-      "outDir": "./dist/",
+      "outDir": "dist",
       "sourceMap": true,
       "noImplicitAny": true,
       "module": "ES2015",
       "moduleResolution": "node",
       "target": "es5",
       "jsx": "react",
-      "allowSyntheticDefaultImports": true
-  }
+      "allowSyntheticDefaultImports": true,
+      "declaration": false
+  },
+  "exclude": ["packages/**/dist/*", "/node_modules/**/*"],
+  "include": ["packages/**/*", "./*.ts", "./*.tsx", "./__mocks__/*.ts"],
+  "files": ["./global.d.ts"]
 }

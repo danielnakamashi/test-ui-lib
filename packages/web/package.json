@@ -8,8 +8,7 @@
     "build": "webpack --config ./webpack.config.js"
   },
   "dependencies": {
-    "@test/ui1": "1.0.0",
-    "@test/ui2": "1.0.0",
+    "@test/ui": "1.0.0",
     "html-webpack-plugin": "^3.2.0",
     "html-webpack-template": "^6.2.0",
     "react": "^16.12.0",

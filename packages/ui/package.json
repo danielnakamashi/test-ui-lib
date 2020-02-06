@@ -1,0 +1,12 @@
+{
+  "name": "@test/ui",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "rollup -c ./rollup.config.js && yarn run build:declaration && node ../../scripts/fixTSDeclarations.js",
+    "build:declaration": "tsc --emitDeclarationOnly --declaration --outFile ./dist/index.d.ts && node ../../scripts/fixTsDeclarations.js"
+  }
+}
